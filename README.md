@@ -5,14 +5,16 @@ curl ifconfig.me  #查詢對外ip
 
 # Ubuntu paste and copy
 
-sudo apt update
+1. sudo apt update
 
-sudo apt install -y build-essential linux-headers-$(uname -r)
+2. sudo apt install -y build-essential linux-headers-$(uname -r)
 
-On the VM window, go to Devices » Insert Guest Additions CD Image.
+3. On the VM window, go to Devices » Insert Guest Additions CD Image.
 
-move to the ISO image
+4. move to the ISO image
 
-sudo ./VBoxLinuxAdditions.run
+5. sudo ./VBoxLinuxAdditions.run
 
-sudo reboot
+6. sudo reboot
+
+7. 設定 -> 一般 -> 設為雙向

@@ -3,7 +3,7 @@
 curl ifconfig.me  #查詢對外ip
 
 
-# Ununtu paste and copy
+# Ubuntu paste and copy
 
 sudo apt update
 

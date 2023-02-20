@@ -1,3 +1,13 @@
+# Error: user is not in the sudoers file. this incident will be reported
+  - su root 
+  - nano /etc/sudoers
+  - ADD
+  - user_name ALL=(ALL)  ALL
+
+# Ubuntu terminal無法打開
+
+
+
 # Ubuntu-connecting
 
 curl ifconfig.me  #查詢對外ip

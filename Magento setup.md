@@ -73,4 +73,9 @@
     --currency=USD \
     --timezone=America/Chicago \
     --use-rewrites=1
+  - Correct the permissions
+    - sudo chown -R www-data. /opt/magento2
+  - Disable two-factor authentication
+    - sudo -u www-data bin/magento module:disable Magento_TwoFactorAuth
+    - sudo -u www-data bin/magento cache:flush 
   

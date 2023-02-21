@@ -38,3 +38,10 @@
     - zlib.output_compression = on
     - max_execution_time = 18000
 
+* Elastic Search
+  - Elasticsearch is not available in the Ubuntu 20.04 repository. 
+  - We have to add the Elasticsearch repository to the system. (From https://www.elastic.co/guide/en/elastic-stack-get-started/7.16/get-started-elastic-stack.html)
+    - curl -L -O https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.16.3-amd64.deb
+    - sudo dpkg -i elasticsearch-7.16.3-amd64.deb
+    - sudo /etc/init.d/elasticsearch start
+

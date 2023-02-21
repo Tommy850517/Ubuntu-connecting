@@ -13,7 +13,7 @@ https://www.mgt-commerce.com/tutorial/how-to-install-magento-2-4-4-on-ubuntu-20-
     - sudo systemctl is-enabled nginx
     - sudo systemctl status nginx
   - Edit default file
-    - ![image](https://github.com/Tommy850517/Ubuntu-connecting/blob/bab49b8252510c5ad79be7c35e9e47deb6f78b28/default.PNG)
+    ![image](https://github.com/Tommy850517/Ubuntu-connecting/blob/bab49b8252510c5ad79be7c35e9e47deb6f78b28/default.PNG)
 
 * Mariadb
   - https://mariadb.org/download/

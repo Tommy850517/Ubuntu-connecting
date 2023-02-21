@@ -47,5 +47,5 @@
     - sudo systemctl --now enable elasticsearch
   - Run the following command to verify that Elasticsearch is working
     - curl -X GET "localhost:9200"
-    - ![image](https://github.com/Tommy850517/Ubuntu-connecting/blob/2e438a59cb094223ee4c8758e431fa304ffd13ad/elastic%20search%20success.PNG)
+      ![image](https://github.com/Tommy850517/Ubuntu-connecting/blob/2e438a59cb094223ee4c8758e431fa304ffd13ad/elastic%20search%20success.PNG)
   

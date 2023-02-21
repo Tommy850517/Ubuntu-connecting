@@ -55,4 +55,22 @@
     - sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
   - Check version
     - composer -v
+* Magento install
+  - composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition=2.4.4 /opt/magento2
+    - [Marketplace](https://account.magento.com/applications/customer/login/?client_id=10906dd964b2dcc6befafab4f567ce6b&redirect_uri=https%3A%2F%2Fmarketplace.magento.com%2Fsso%2Faccount%2FoauthCallback%2F&response_type=code&state=e39f7055574e055fd238caec5d1b1afd)
+  - php bin/magento setup:install \
+    --base-url=http://example.com \
+    --db-host=localhost \
+    --db-name=magento2 \
+    --db-user=tommy \
+    --db-password=Tommy850517123 \
+    --admin-firstname=admin \
+    --admin-lastname=admin123 \
+    --admin-email=admin@admin.com \
+    --admin-user=admin \
+    --admin-password=admin \
+    --language=en_US \
+    --currency=USD \
+    --timezone=America/Chicago \
+    --use-rewrites=1
   

@@ -49,7 +49,7 @@
     - curl -X GET "localhost:9200"
       ![image](https://github.com/Tommy850517/Ubuntu-connecting/blob/2e438a59cb094223ee4c8758e431fa304ffd13ad/elastic%20search%20success.PNG)
       
-*Composer
+* Composer
   - Install
     - curl -sS https://getcomposer.org/installer -o composer-setup.php
     - sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer

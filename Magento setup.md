@@ -44,4 +44,25 @@
     - curl -L -O https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.16.3-amd64.deb
     - sudo dpkg -i elasticsearch-7.16.3-amd64.deb
     - sudo /etc/init.d/elasticsearch start
+    - sudo systemctl --now enable elasticsearch
+  - Run the following command to verify that Elasticsearch is working
+    - curl -X GET "localhost:9200"
+    - You will get a message like this
+      {
+        "name" : "ubuntu20",
+        "cluster_name" : "elasticsearch",
+        "cluster_uuid" : "FKnwn1-fSYm54T3dv7a6UQ",
+        "version" : {
+        "number" : "7.15.0",
+        "build_flavor" : "default",
+        "build_type" : "deb",
+        "build_hash" : "79d65f6e357953a5b3cbcc5e2c7c21073d89aa29",
+        "build_date" : "2021-09-16T03:05:29.143308416Z",
+        "build_snapshot" : false,
+        "lucene_version" : "8.9.0",
+        "minimum_wire_compatibility_version" : "6.8.0",
+        "minimum_index_compatibility_version" : "6.0.0-beta1"
+        },
+        "tagline" : "You Know, for Search"
+      }
 

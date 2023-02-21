@@ -27,9 +27,14 @@
     - FLUSH PRIVILEGES;
     - EXIT;
  
-* PHP
+* (PHP)[https://www.mgt-commerce.com/tutorial/how-to-install-magento-2-4-4-on-ubuntu-20-04/]
   - By default PHP 8.1 is not available in Ubuntu 20.04. Use the command below to add a repository for it.
     - sudo apt install software-properties-common && sudo add-apt-repository ppa:ondrej/php -y
     - sudo apt update
     - sudo apt install php8.1-{bcmath,common,curl,fpm,gd,intl,mbstring,mysql,soap,xml,xsl,zip,cli}
-    - 
+  - GOTO /etc/php/8.1/fpm/php.ini and set (sudo nano)
+    - memory_limit = 768M
+    - upload_max_filesize = 128M
+    - zlib.output_compression = on
+    - max_execution_time = 18000
+

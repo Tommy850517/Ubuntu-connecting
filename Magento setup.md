@@ -11,7 +11,7 @@
     - sudo systemctl is-enabled nginx
     - sudo systemctl status nginx
   - Edit default file
-    - ![image]()
+    - ![image](https://github.com/Tommy850517/Ubuntu-connecting/blob/bab49b8252510c5ad79be7c35e9e47deb6f78b28/default.PNG)
 
 * Mariadb
   - https://mariadb.org/download/

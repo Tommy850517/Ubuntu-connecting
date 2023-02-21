@@ -10,6 +10,8 @@
     - sudo systemctl is-active nginx
     - sudo systemctl is-enabled nginx
     - sudo systemctl status nginx
+  - Edit default file
+    - ![image]()
 
 * Mariadb
   - https://mariadb.org/download/

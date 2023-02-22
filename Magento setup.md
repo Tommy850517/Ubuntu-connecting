@@ -61,7 +61,7 @@
     - composer -v
 * Magento install
   - [Marketplace](https://account.magento.com/applications/customer/login/?client_id=10906dd964b2dcc6befafab4f567ce6b&redirect_uri=https%3A%2F%2Fmarketplace.magento.com%2Fsso%2Faccount%2FoauthCallback%2F&response_type=code&state=e39f7055574e055fd238caec5d1b1afd)
-    - Create an account and new access token
+    - Create an account and new access key
 
   - composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition=2.4.4 /opt/magento2
     

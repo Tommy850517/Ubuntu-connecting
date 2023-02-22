@@ -1,4 +1,4 @@
-** Magento website安裝步驟
+*** Magento website安裝步驟
 
 * Nginx
   - Install
@@ -83,3 +83,4 @@
     - sudo -u www-data bin/magento module:disable Magento_TwoFactorAuth
     - sudo -u www-data bin/magento cache:flush 
   
+* reference: https://www.mgt-commerce.com/tutorial/how-to-install-magento-2-4-4-on-ubuntu-20-04/

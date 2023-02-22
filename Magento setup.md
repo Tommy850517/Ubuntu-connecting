@@ -19,7 +19,7 @@
   - https://mariadb.org/download/
     - systemctl status mariadb
     - mariadb --version
-  - [Setting] (https://www.mageplaza.com/devdocs/how-install-magento-2-ubuntu.html#step-14-update-phpini-file) 
+  - [Setting](https://www.mageplaza.com/devdocs/how-install-magento-2-ubuntu.html#step-14-update-phpini-file) 
     - sudo systemctl restart mariadb.service
     - sudo systemctl enable mariadb.service
     - sudo mysql_secure_installation
@@ -31,7 +31,7 @@
     - FLUSH PRIVILEGES;
     - EXIT;
  
-* (PHP)[https://www.mgt-commerce.com/tutorial/how-to-install-magento-2-4-4-on-ubuntu-20-04/]
+* [PHP](https://www.mgt-commerce.com/tutorial/how-to-install-magento-2-4-4-on-ubuntu-20-04/)
   - By default PHP 8.1 is not available in Ubuntu 20.04. Use the command below to add a repository for it.
     - sudo apt install software-properties-common && sudo add-apt-repository ppa:ondrej/php -y
     - sudo apt update
